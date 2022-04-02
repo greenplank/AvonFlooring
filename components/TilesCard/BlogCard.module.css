@@ -1,0 +1,42 @@
+.margin{
+  margin: "90px";margin-bottom:"40px"
+}
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+}
+.blogCard {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.blogCard .image {
+  background-color: #999999;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  flex: 0 0 200px;
+}
+
+.blogCard .info {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.blogCard .title h3 {
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.blogCard .description {
+  padding: 5px 0;
+  color: #333333;
+}

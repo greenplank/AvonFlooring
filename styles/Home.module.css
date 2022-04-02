@@ -1,0 +1,29 @@
+.container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 5px 5px 5px;
+}
+
+.navbar span {
+  margin-right: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.navbar .selected {
+  background: blue;
+  color: white;
+  border-radius: 5px;
+}
