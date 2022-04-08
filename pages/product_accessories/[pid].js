@@ -11,6 +11,7 @@ function Product() {
   const { pid } = router.query;
   // const products = ({Tiles1,Flooring1})=>((!Tiles1)?Tiles.AccessoriesProducts:(Flooring1)?Tiles.FlooringProducts:Tiles.AccessoriesProducts);
   const product = Tiles.AccessoriesProducts.find((t) => t.id == parseInt(pid));
+  const product1 = Tiles.TilesBG.find((t) => t.id == parseInt(pid));
   console.log(product);
 
   function createMarkup_HtmlString() {

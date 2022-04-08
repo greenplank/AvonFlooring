@@ -16,7 +16,7 @@ class Products extends Component {
         <PageBanner
           pageTitle="Accessories Products
                     "
-          BGImage="bg-one"
+          BGImage={"bg-one"}
         />
 
         <Container className={styles.container}>
