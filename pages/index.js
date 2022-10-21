@@ -14,7 +14,7 @@ class CreativeAgency extends Component {
     render() {
         return (
             <>
-            <h1>Comming Soon</h1>
+            <h1>We are sorry, the website is inaccessible (edited)</h1>
             {/*
                 <Head>
                     <title>Avon Flooring</title>
