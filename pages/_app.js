@@ -96,7 +96,10 @@ export default class MyApp extends App {
         </Head>
 
         <NavbarTwo />
+        
+        */}
         <Component {...pageProps} />
+{/*
         <Footer />
 
         <Loader loading={this.state.loading} />
