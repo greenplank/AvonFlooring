@@ -86,7 +86,7 @@ export default class MyApp extends App {
                         gtag('config', 'UA-211768101-1');
                         `}
         </Script>
-
+{/*
         <Head>
           <meta
             name="viewport"
@@ -95,15 +95,16 @@ export default class MyApp extends App {
           <title>Avon Flooring</title>
         </Head>
 
-        {/* <NavbarTwo selected_language={this.state.selected_language} set_language={this.set_lang} all_languages={lang}  /> */}
         <NavbarTwo />
         <Component {...pageProps} />
         <Footer />
-        {/* Preloader */}
+
         <Loader loading={this.state.loading} />
 
-        {/* Go Top Button */}
+       
         <GoTop />
+        
+        */}
       </>
     );
   }
