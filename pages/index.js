@@ -14,6 +14,7 @@ class CreativeAgency extends Component {
     render() {
         return (
             <>
+            {/*
                 <Head>
                     <title>Avon Flooring</title>
                     <meta name="google-site-verification" content="A_wzV5qMXCsTb1vFJKSlCRfMspRIrcbz0jdONJhxwLw" />
@@ -33,8 +34,7 @@ class CreativeAgency extends Component {
                 <Services />
 
                 <ChooseEcomin />
-
-                
+                */}
             </>
         );
     }
